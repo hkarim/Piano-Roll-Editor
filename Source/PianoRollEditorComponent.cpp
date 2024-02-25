@@ -36,6 +36,12 @@ PianoRollEditorComponent::PianoRollEditorComponent() : noteGrid(styleSheet), con
         viewportTimeline.setViewPosition(x, y);
         viewportPiano.setViewPosition(x, y);
     };
+
+    /// hk::edit
+    //viewportGrid.setTransform(AffineTransform::scale(0.5f));
+    //viewportTimeline.setTransform(AffineTransform::scale(0.5f));
+    //viewportPiano.setTransform(AffineTransform::scale(0.5f));
+    /// hk::edit
     
     addAndMakeVisible(controlPannel);
     controlPannel.configureGrid = [this](int pixelsPerBar, int noteHeight)

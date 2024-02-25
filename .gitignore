@@ -1,4 +1,5 @@
 
+.DS_Store
 Builds/MacOSX/build/
 
 PianoRollEditor\.jucer
@@ -6,3 +7,5 @@ PianoRollEditor\.jucer
 Builds/
 
 JuceLibraryCode/
+
+cmake-build*

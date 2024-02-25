@@ -21,7 +21,7 @@ MainComponent::MainComponent()
         std::cout << "MIDI send: " << note << " : " << velocity << "\n";
     };
     tickTest = 0;
-    startTimer(20);
+    //startTimer(20);
 }
 
 MainComponent::~MainComponent()
